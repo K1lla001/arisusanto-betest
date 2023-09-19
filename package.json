@@ -1,0 +1,32 @@
+{
+  "name": "ms-arisusanto-betest",
+  "version": "1.0.0",
+  "description": "betest expressjs with mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AriSu2904/arisusanto-betest.git"
+  },
+  "author": "Ari Susanto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AriSu2904/arisusanto-betest/issues"
+  },
+  "homepage": "https://github.com/AriSu2904/arisusanto-betest#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.2",
+    "redis": "^4.6.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
